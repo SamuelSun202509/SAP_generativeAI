@@ -1,7 +1,0 @@
-{
-    "AICORE_AUTH_URL": "https://rb-btphub-taf-d.authentication.eu10.hana.ondemand.com/oauth/token",
-    "AICORE_CLIENT_ID": "sb-7f752f7a-b56d-4c3a-9b18-9d4390a085df!b550689|aicore!b540",
-    "AICORE_CLIENT_SECRET": "067bfd73-fe3d-4306-abdd-35b78e5b81bf$ywEOUjhDKdwNrvuWVP7Bttb2lgGFSO70EQhnCC7ADEw=",
-    "AICORE_RESOURCE_GROUP": "default" ,
-    "AICORE_BASE_URL": "https://api.ai.prod.eu-central-1.aws.ml.hana.ondemand.com/v2"
-}

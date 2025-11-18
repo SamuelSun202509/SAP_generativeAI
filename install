@@ -1,0 +1,23 @@
+Create workspace
+
+ 
+
+
+Create a virtual environment using the following command:
+python3 -m venv ~/projects/SAP_GenAI/env --upgrade-deps
+Activate the env virtual environment like this and make sure it is activated:
+source ~/projects/SAP_GenAI/env/bin/activate
+ 
+ 
+
+
+👉 Install the Generative AI Hub Python SDK and LangChain integration for SAP HANA Cloud plus all the other packages listed below using the following pip install commands.
+--require-virtualenv        Allow pip to only run in a virtual environment; exit with an error otherwise.
+
+pip install --require-virtualenv -U  "sap-ai-sdk-gen[all]" 'langchain-hana==0.2.2'
+pip install --require-virtualenv sap-ai-sdk-gen[all]
+pip install --require-virtualenv langchain-hana
+pip install --require-virtualenv scipy
+pip install --require-virtualenv pypdf wikipedia
+
+pip install --require-virtualenv langchain-chroma

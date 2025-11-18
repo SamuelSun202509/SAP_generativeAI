@@ -1,59 +1,67 @@
 Response from model gpt-4o:
-John Doe is a Data Scientist with over three years of experience in data analysis, statistical modeling, and machine learning, based in San Francisco, CA. He holds a Master's degree in Data Science from the University of California, Berkeley, and a Bachelor's degree in Computer Science from UCLA. John is proficient in programming languages such as Python, R, SQL, and Java, and has expertise in data visualization tools like Tableau and Matplotlib, as well as machine learning frameworks like TensorFlow and Scikit-learn. Currently working at DataCorp Inc., he has developed predictive models that improved marketing ROI by 20% and collaborated on strategies that increased customer satisfaction by 15%. Previously, as a Data Analyst Intern at Analytics Solutions, he analyzed large datasets and assisted in creating automated reporting tools. His notable projects include customer segmentation analysis and predictive stock price modeling. John holds certifications as a Certified Data Scientist and in Machine Learning from Stanford University. He is a member of the Association for Computing Machinery and the Data Science Society. Outside of work, John enjoys exploring new technologies, reading about AI and machine learning, traveling, and playing competitive video games. However, he dislikes working with Azure cloud services and prefers environments that offer new challenges.
+John Doe is a data scientist with over three years of experience in data analysis, statistical modeling, and machine learning, currently residing in San Francisco, CA. He holds a Master of Science in Data Science from the University of California, Berkeley, and a Bachelor of Science in Computer Science from the University of California, Los Angeles. His technical expertise includes programming languages such as Python, R, SQL, and Java, and he is proficient in data visualization tools like Tableau and machine learning frameworks such as Scikit-learn and TensorFlow. Currently employed at DataCorp Inc., he has contributed to increasing ROI by 20% through predictive modeling and enhanced customer satisfaction scores by 15% through data-driven strategies. Previously, he interned at Analytics Solutions, focusing on analyzing large datasets to identify business growth opportunities and developing automated reporting tools. Notable projects include customer segmentation analysis using K-means clustering, predictive stock price modeling with an 85% accuracy rate, and sentiment analysis on social media using natural language processing techniques. John is certified as a Data Scientist by the Data Science Council of America and has completed a Machine Learning Specialization through Coursera by Stanford University. He is a member of professional organizations like the Association for Computing Machinery and the Data Science Society. His personal interests include exploring new technologies, reading about artificial intelligence, traveling, and playing competitive video games, while he dislikes routine tasks and working with Azure cloud services.
 --------------------------------------------------------------------------------
 Response from model mistralai--mistral-large-instruct:
- John Doe is a detail-oriented Data Scientist with over 3 years of experience in data analysis, statistical modeling, and machine learning. He holds a Master of Science in Data Science from the University of California, Berkeley, and a Bachelor of Science in Computer Science from the University of California, Los Angeles. His technical skills include proficiency in Python, R, SQL, Java, and expertise in data analysis tools such as Pandas, NumPy, Matplotlib, Seaborn, and Tableau. He also has experience with machine learning frameworks like Scikit-learn, TensorFlow, Keras, and XGBoost, as well as big data technologies like Hadoop and Spark.
-
-John Doe currently works as a Data Scientist at DataCorp Inc. in San Francisco, where he has developed predictive models that increased marketing campaign ROI by 20% and improved customer satisfaction scores by 15%. He has also created interactive dashboards using Tableau to visualize KPIs for stakeholders. Previously, he served as a Data Analyst Intern at Analytics Solutions in Los Angeles, where he analyzed large datasets to identify business growth opportunities and developed automated reporting tools.
-
-Key projects include a customer segmentation analysis using K-means clustering, a predictive stock price modeling project with an 85% accuracy rate, and a sentiment analysis on social media using natural language processing techniques. John Doe holds certifications as a Certified Data Scientist (CDS) from the Data Science Council of America and has completed a Machine Learning Specialization from Coursera by Stanford University. He is a member of the Association for Computing Machinery (ACM) and the Data Science Society.
-
-John Doe's personal interests include exploring new technologies, reading books on artificial intelligence and machine learning, traveling, and playing video games. He values honesty and reliability and seeks new challenges and growth opportunities. He prefers not to work with Azure cloud.
-
-Contact Information:
+ **John Doe**
+**Contact Information:**
 - Address: 1234 Data St, San Francisco, CA 94101
 - Phone: (123) 456-7890
 - Email: johndoe@email.com
-- LinkedIn Profile
-- GitHub Profile
+- LinkedIn and GitHub profiles available
 
-References are available upon request.
+**Key Qualifications:**
+- Master of Science in Data Science (UC Berkeley, 2021) and Bachelor of Science in Computer Science (UCLA, 2019)
+- Proficient in programming languages (Python, R, SQL, Java) and data analysis tools (Pandas, NumPy, Tableau)
+- Skilled in machine learning (Scikit-learn, TensorFlow, XGBoost) and big data technologies (Hadoop, Spark)
+- Certified Data Scientist (CDS) with Machine Learning Specialization from Coursera
+
+**Work Experience:**
+- **Data Scientist** at DataCorp Inc. (San Francisco, CA, June 2021 – Present)
+  - Developed predictive models to increase marketing campaign ROI by 20%
+  - Conducted data analysis using Python and SQL to identify trends and improve customer satisfaction by 15%
+  - Created Tableau dashboards for stakeholders
+- **Data Analyst Intern** at Analytics Solutions (Los Angeles, CA, June 2020 – August 2020)
+  - Analyzed large datasets, developed automated reporting tools, and created insightful reports
+
+**Achievements:**
+- Successfully segmented customer base using K-means clustering for targeted marketing
+- Built a stock price prediction model with 85% accuracy
+- Conducted sentiment analysis on social media data for public opinion insights
+
+**Organizational History:**
+- Member of the Association for Computing Machinery (ACM) and Data Science Society
+
+**Personal Interests:**
+- Exploring new technologies and innovative projects
+- Reading AI and machine learning books, traveling, playing competitive video games
+- Seeks new challenges and growth opportunities
+- Prefers not to work with Azure cloud
 --------------------------------------------------------------------------------
 Response from model anthropic--claude-4.5-sonnet:
 # CV Summary: John Doe
 
-**Contact Information:**
-John Doe is based in San Francisco, CA and can be reached at (123) 456-7890 or johndoe@email.com, with active LinkedIn and GitHub profiles.
+**Contact Information:** John Doe is located in San Francisco, CA and can be reached at (123) 456-7890 or johndoe@email.com, with active LinkedIn and GitHub profiles.
 
-**Education:**
-John holds a Master of Science in Data Science from UC Berkeley (2021) and a Bachelor of Science in Computer Science from UCLA (2019).
+**Education:** John holds a Master of Science in Data Science from UC Berkeley (2021) and a Bachelor of Science in Computer Science from UCLA (2019).
 
-**Current Role:**
-He currently works as a Data Scientist at DataCorp Inc. in San Francisco since June 2021, where he has developed predictive models that increased marketing ROI by 20% and improved customer satisfaction scores by 15%.
+**Current Role:** He currently works as a Data Scientist at DataCorp Inc. in San Francisco since June 2021, where he has achieved significant business impact.
 
-**Technical Expertise:**
-John possesses strong technical skills including Python, R, SQL, and Java, along with proficiency in machine learning frameworks (Scikit-learn, TensorFlow, Keras), big data technologies (Hadoop, Spark), and data visualization tools (Tableau, Matplotlib).
+**Key Achievements:** His predictive models increased marketing campaign ROI by 20%, and his data-driven strategies improved customer satisfaction scores by 15%.
 
-**Previous Experience:**
-He completed a Data Analyst internship at Analytics Solutions in 2020, where he analyzed large datasets and developed automated reporting tools.
+**Technical Expertise:** John is proficient in Python, R, SQL, and Java, with strong skills in machine learning frameworks (Scikit-learn, TensorFlow, Keras), big data technologies (Hadoop, Spark), and visualization tools (Tableau, Matplotlib).
 
-**Notable Projects:**
-His project portfolio includes customer segmentation analysis using K-means clustering, predictive stock price modeling with 85% accuracy, and sentiment analysis on social media using NLP techniques.
+**Prior Experience:** He completed a Data Analyst internship at Analytics Solutions in 2020, where he developed automated reporting tools and created business insights from large datasets.
 
-**Certifications:**
-John is a Certified Data Scientist (CDS) and has completed Stanford's Machine Learning Specialization through Coursera.
+**Notable Projects:** His portfolio includes customer segmentation using K-means clustering, predictive stock price modeling with 85% accuracy, and sentiment analysis on social media using NLP techniques.
 
-**Professional Involvement:**
-He maintains active membership in the Association for Computing Machinery (ACM) and the Data Science Society.
+**Certifications:** He holds a Certified Data Scientist credential and completed Stanford's Machine Learning Specialization through Coursera.
 
-**Personal Interests:**
-John is passionate about exploring new technologies, reading about AI/ML, traveling, and playing competitive video games, while he values honesty and continuously seeks new challenges to avoid routine.
+**Professional Involvement:** John is an active member of the Association for Computing Machinery (ACM) and the Data Science Society.
 
-**Technology Preferences:**
-It should be noted that John has expressed strong negative opinions about Azure cloud platform, stating it is "the most irritating platform" he has used, which may be relevant for roles requiring Azure expertise.
+**Personal Interests:** He is passionate about emerging technologies, AI/ML literature, travel, and gaming, while strongly preferring dynamic work environments with growth opportunities and expressing a notable aversion to Azure cloud platform.
 --------------------------------------------------------------------------------
 Response from model meta--llama3.1-70b-instruct:
-Here's a summary of the candidate's CV in 10 sentences:
+Here is a summary of John Doe's CV in 10 sentences:
 
-John Doe is a detail-oriented Data Scientist with 3+ years of experience in data analysis, statistical modeling, and machine learning. He can be contacted at (123) 456-7890 or johndoe@email.com, and his LinkedIn and GitHub profiles are available online. John holds a Master of Science in Data Science from the University of California, Berkeley, and a Bachelor of Science in Computer Science from the University of California, Los Angeles. He has worked as a Data Scientist at DataCorp Inc. in San Francisco since June 2021, where he developed predictive models that increased ROI by 20% and improved customer satisfaction scores by 15%. Prior to this, he interned as a Data Analyst at Analytics Solutions in Los Angeles, where he analyzed large datasets and assisted in the development of automated reporting tools. John's technical skills include programming languages such as Python, R, and SQL, as well as data analysis and visualization tools like Pandas, NumPy, and Tableau. He has also worked on various projects, including customer segmentation analysis, predictive stock price modeling, and sentiment analysis on social media. John is certified as a Data Scientist by the Data Science Council of America and has a Machine Learning Specialization from Coursera by Stanford University. In his free time, he enjoys exploring new technologies, reading books on artificial intelligence and machine learning, and traveling. However, it's worth noting that John has expressed a strong dislike for working with Azure cloud, which may be a consideration for companies that rely heavily on this platform.
+John Doe is a detail-oriented Data Scientist with 3+ years of experience in data analysis, statistical modeling, and machine learning. He can be reached at (123) 456-7890 or johndoe@email.com, and his LinkedIn and GitHub profiles are available for viewing. John holds a Master's degree in Data Science from the University of California, Berkeley, and a Bachelor's degree in Computer Science from the University of California, Los Angeles. His technical skills include proficiency in programming languages such as Python, R, and SQL, as well as expertise in data analysis and visualization tools like Pandas, NumPy, and Tableau. Currently, John works as a Data Scientist at DataCorp Inc. in San Francisco, where he has developed predictive models that increased ROI by 20% and improved customer satisfaction scores by 15%. Prior to his current role, John interned as a Data Analyst at Analytics Solutions in Los Angeles, where he analyzed large datasets and assisted in the development of automated reporting tools. John has also worked on various projects, including customer segmentation analysis, predictive stock price modeling, and sentiment analysis on social media. He holds certifications in Data Science and Machine Learning, and is a member of the Association for Computing Machinery (ACM) and the Data Science Society. In his free time, John enjoys exploring new technologies, reading books on AI and machine learning, traveling, and playing video games. He values honesty, reliability, and growth opportunities, and dislikes being stuck in a routine or working with dishonest people.
 --------------------------------------------------------------------------------

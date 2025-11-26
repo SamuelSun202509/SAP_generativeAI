@@ -21,3 +21,7 @@ pip install --require-virtualenv scipy
 pip install --require-virtualenv pypdf wikipedia
 
 pip install --require-virtualenv langchain-chroma
+
+pip install --require-virtualenv bs4
+
+pip install --require-virtualenv streamlit

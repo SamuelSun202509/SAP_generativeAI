@@ -6,12 +6,24 @@ from gen_ai_hub.orchestration.models.response_format import ResponseFormatJsonSc
 from gen_ai_hub.orchestration.models.llm import LLM
 import json
 
+##########################################################################################################################################################
+### The AgentExecutor class is the heart of an agentic AI system. It coordinates LLM-based decision making, tool invocation, and response generation.  ###
+##########################################################################################################################################################
 class AgentExecutor:
+
+    ## Initialization: Injecting the LLM and Tool Registry
     def __init__(self, llm, tool_registry, verbose=True):
         self.llm = llm
         self.tool_registry = tool_registry
         self.verbose = verbose
+        """
+        This constructor sets up the agent with:
+        * A large language model (llm) used to generate reasoning and answers.
+        * A tool_registry containing all available tools (functions the agent can use).
+        * An optional verbose flag for logging internal steps.
+        """
 
+    ## Dynamic JSON Schema for Tool Decisions
     def _build_dynamic_schema(self):
         return {
             "title": "ToolCalls",
@@ -33,7 +45,18 @@ class AgentExecutor:
             },
             "required": ["tool_calls"]
         }
+        """
+        This method defines a JSON Schema for the expected response format from the LLM when asked to decide on tool usage. It enforces a consistent structure:
+        * A list of tool calls.
+        * Each tool call includes:
+            The decision (e.g., "tool" or "no_tool"),
+            The reason behind it,
+            The function name to invoke,
+            Any parameters required.
+        This structure helps validate the LLM's decisions and ensures they are safely executable.
+        """
 
+    ## Instruction Generator for the LLM
     def _generate_instruction(self):
         description = json.dumps(self.tool_registry.get_description_for_prompt(), indent=2)
         return f"""
@@ -65,8 +88,16 @@ class AgentExecutor:
                     "parameters": {{}}
                     }}
                 ]
-                }}
+                }}          
                 """
+        """
+        This method dynamically builds a prompt describing all available tools and how the LLM should behave. It includes:
+        * A list of tools from the registry.
+        * Rules for returning decisions in a valid JSON format.
+        * A few examples for clarity.
+        This acts as a system message to guide the LLM's thinking in a structured way.
+        """
+
 
     def run(self, user_query: str):
         from gen_ai_hub.orchestration.models.message import SystemMessage, UserMessage, AssistantMessage

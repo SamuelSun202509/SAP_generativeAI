@@ -24,4 +24,4 @@ pip install --require-virtualenv langchain-chroma
 
 pip install --require-virtualenv bs4
 
-pip install --require-virtualenv streamlit
+pip install --require-virtualenv markdownify

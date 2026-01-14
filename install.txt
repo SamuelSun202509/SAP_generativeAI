@@ -25,3 +25,11 @@ pip install --require-virtualenv langchain-chroma
 pip install --require-virtualenv bs4
 
 pip install --require-virtualenv markdownify
+
+pip install --require-virtualenv langgraph-checkpoint-postgres
+
+pip install --require-virtualenv langgraph-checkpoint-postgres psycopg[binary]
+
+pip install --require-virtualenv langgraph-tavily
+
+

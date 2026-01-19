@@ -2,6 +2,7 @@
 # realtime_search_agent.py
 # A clean, simplified module for other Python programs to import and use.
 import re
+from datetime import date
 from typing import Any, Dict, List, Tuple
 from langchain_tavily import TavilySearch
 from gen_ai_hub.proxy.langchain.init_models import init_llm
@@ -26,10 +27,11 @@ class RealtimeSearchAgent:
         model_name: str = "gpt-4o",
         temperature: float = 0.1,
         max_tokens: int = 8000,
-        max_results: int = 3,
+        max_results: int = 6,
         system_prompt: str = (
             "You are a helpful assistant with real-time web access. "
-            "Use the search tool to gather current information. "
+            f"Today's date is {date.today().strftime('%B %d, %Y')}."
+            "Use search_tool to do web search, to find accurate, up-to-date information to answer user queries."
             "Always include URLs of the sources you use."
         )
     ):
@@ -38,7 +40,21 @@ class RealtimeSearchAgent:
             raise EnvironmentError("Missing TAVILY_API_KEY environment variable.")
 
         # Tool
-        self.search_tool = TavilySearch(max_results=max_results)
+        self.search_tool = TavilySearch(
+            max_results=max_results,
+            topic="general",
+            # include_answer=False,
+            # include_raw_content=False,
+            # include_images=False,
+            # include_image_descriptions=False,
+            # search_depth="basic",
+            # time_range="day",
+            start_date="2026-01-12",
+            # end_date=None,
+            # include_domains=["https://www.toutiao.com/","https://www.news.cn/","https://www.eastmoney.com/"],
+            # exclude_domains=None,
+            # include_usage= False            
+        )
 
         # LLM initialization
         self.llm = init_llm(

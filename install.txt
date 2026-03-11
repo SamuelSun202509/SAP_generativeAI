@@ -31,5 +31,7 @@ pip install --require-virtualenv langgraph-checkpoint-postgres
 pip install --require-virtualenv langgraph-checkpoint-postgres psycopg[binary]
 
 pip install --require-virtualenv langgraph-tavily
+ 
+pip install --require-virtualenv pymupdf
 
 

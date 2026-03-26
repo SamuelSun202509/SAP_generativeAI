@@ -34,4 +34,5 @@ pip install --require-virtualenv langgraph-tavily
  
 pip install --require-virtualenv pymupdf
 
-
+pip install --require-virtualenv lark
+ 

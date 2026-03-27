@@ -1,6 +1,6 @@
 Create workspace
 
- 
+source /home/user/projects/SAP_GenAI/env/bin/activate
 
 
 Create a virtual environment using the following command:
@@ -17,6 +17,10 @@ source ~/projects/SAP_GenAI/env/bin/activate
 pip install --require-virtualenv -U  "sap-ai-sdk-gen[all]" 'langchain-hana==0.2.2'
 pip install --require-virtualenv sap-ai-sdk-gen[all]
 pip install --require-virtualenv langchain-hana
+
+
+
+
 pip install --require-virtualenv scipy
 pip install --require-virtualenv pypdf wikipedia
 
@@ -35,4 +39,13 @@ pip install --require-virtualenv langgraph-tavily
 pip install --require-virtualenv pymupdf
 
 pip install --require-virtualenv lark
- 
+
+pip install --require-virtualenv -U "langchain>=1.2"
+
+pip install --require-virtualenv -U wikipedia
+
+pip install --require-virtualenv hana_ml
+
+pip install --require-virtualenv tiktoken
+
+pip install --require-virtualenv sqlalchemy-hana
